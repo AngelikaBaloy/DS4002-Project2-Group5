@@ -11,7 +11,7 @@ Bureau of Transportation Statistics, “Detailed Statistics Departures.”
 https://www.transtats.bts.gov/ontime/Departures.aspx
 
 # Software and Platform
-- Software: Python 3 (notebook: Arline_Project.ipynb)
+- Software: Python 3 (notebook: Arline_Project_Analysis.ipynb)
 - Platform: Google Colab
 - Python Version: 3.13.16
 
