@@ -17,7 +17,7 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 
 | Package | Version | Used for |
 | -------- | ------ | --------| 
-| pandad |           | Loading, cleaning, and roganizing the 2024 and 2025 airline datasets |
+| pandas |           | Loading, cleaning, and roganizing the 2024 and 2025 airline datasets |
 | matplotlib |       |  Plotting time series, trends, and forecasts  |
 | seaborn |          |   Creating statistical visualizations         |
 | statsmodels |          |   Fitting ARIMA models, conducting the ADF stationarity test, and forecasting airline delays  |
