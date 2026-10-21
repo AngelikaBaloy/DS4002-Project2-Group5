@@ -27,13 +27,14 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 * Data
     * Cleaned Data
         * IAD_2024_Combined.csv
-        * IAD_2025_Combined_csV
-    * IAD_2024_American.csv
-    * IAD_2024_Delta.csv
-    * IAD_2024_United.csv
-    * IAD_2025_American.csv
-    * IAD_2025_Delta.csv
-    * IAD_2025_United.csv
+        * IAD_2025_Combined_csv
+    * Original Data     
+       * IAD_2024_American.csv
+       * IAD_2024_Delta.csv
+       * IAD_2024_United.csv
+       * IAD_2025_American.csv
+       * IAD_2025_Delta.csv
+       * IAD_2025_United.csv
     * README.md
     * explanatory_plots.jpeg
 * Output
