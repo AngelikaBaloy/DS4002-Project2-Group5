@@ -28,7 +28,7 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
     * Combined Data
         * IAD_2024_Combined.csv
         * IAD_2025_Combined_csv
-    * Original Data     
+    * Raw Data     
        * IAD_2024_American.csv
        * IAD_2024_Delta.csv
        * IAD_2024_United.csv
@@ -43,7 +43,6 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
      * Airline_Project_Analysis.ipynb
 * LICENSE
 * README.md
-
 
 ## Instruction for Reproducing Results
 
