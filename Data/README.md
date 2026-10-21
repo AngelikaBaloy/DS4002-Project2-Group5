@@ -45,6 +45,10 @@ The dataset contains flight information, including flight numbers and tail numbe
 | Daily Delayed Flight Count | Numeric / integer | Number of flights delayed by at least 15 minutes on a given date. | Depends on the completeness of departure-delay records. |
 | Daily Delay Rate | Numeric / percentage | Daily delayed flight count divided by daily flight count. | Days with no usable delay values are treated as missing, not as zero-delay days. |
 
+## Explanatory Plots
+
+[![Description of the image](Data/explanatory_plots.jpeg)](Data/explanatory_plots.jpeg)
+
 ## Data Preparation and Analysis
 
 We will combine the six airline-year datasets after standardizing their column names and checking for missing values and duplicate flights. A flight will count as delayed when its departure delay is 15 minutes or more.
