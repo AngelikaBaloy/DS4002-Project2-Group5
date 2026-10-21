@@ -25,7 +25,7 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 ## Documentation
 
 * Data
-    * Cleaned Data
+    * Combined Data
         * IAD_2024_Combined.csv
         * IAD_2025_Combined_csv
     * Original Data     
