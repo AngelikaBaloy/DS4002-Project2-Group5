@@ -23,8 +23,18 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 | statsmodels |   0.15.0       |   Fitting ARIMA models, conducting the ADF stationarity test, and forecasting airline delays  |
 
 # Documentation
-
-TBD
+- Data
+-   Cleaned Data
+-     IAD_2024_Combined.csv
+-     IAD_2025_Combined_cs
+-   IAD_2024_American.csv
+-   IAD_2024_Delta.csv
+-   IAD_2024_United.csv
+-   IAD_2025_American.csv
+-   IAD_2025_Delta.csv
+-   IAD_2025_United.csv
+-   README.md
+-   explanatory_plots.jpeg
 
 # Introduction for Reproducing Results
 
