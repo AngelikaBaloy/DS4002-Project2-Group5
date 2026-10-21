@@ -37,9 +37,9 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
     * README.md
     * explanatory_plots.jpeg
 * Output
-     *To be continued....
+     * To be continued....
 * Scripts
-     *Airline_Project_Analysis.ipynb
+     * Airline_Project_Analysis.ipynb
 * LICENSE
 * README.md
 
