@@ -4,13 +4,13 @@ Contains Project 2 Work for DS 4002 Group 5 Fall 2026
 
 Members: Angelika Baloy, Samuel Bromberg, Inmar Chavarria
 
-# Analyzing and Predicting Airline Delays at Washington Dulles International Airport
+## Analyzing and Predicting Airline Delays at Washington Dulles International Airport
 We are using data from The United States Department of Transportation. Specifically the Bureau of Transportation Statistics:
 
 Bureau of Transportation Statistics, “Detailed Statistics Departures.” 
 https://www.transtats.bts.gov/ontime/Departures.aspx
 
-# Software and Platform
+## Software and Platform
 - Software: Python 3 (notebook: Arline_Project_Analysis.ipynb)
 - Platform: Google Colab
 - Python Version: 3.13.16
@@ -22,21 +22,22 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 | seaborn |   0.13.2       |   Creating statistical visualizations         |
 | statsmodels |   0.15.0       |   Fitting ARIMA models, conducting the ADF stationarity test, and forecasting airline delays  |
 
-# Documentation
+## Documentation
 
 * Data
-    *Cleaned Data
-        *IAD_2024_Combined.csv
+  
+
+## Instruction for Reproducing Results
+
+* Data
+    * Cleaned Data
+        * IAD_2024_Combined.csv
         *IAD_2025_Combined_cs
-    *IAD_2024_American.csv
-    *IAD_2024_Delta.csv
-    *IAD_2024_United.csv
+    * IAD_2024_American.csv
+    * IAD_2024_Delta.csv
+    * IAD_2024_United.csv
     *IAD_2025_American.csv
     *IAD_2025_Delta.csv
     *IAD_2025_United.csv
     *README.md
     *explanatory_plots.jpeg
-
-# Introduction for Reproducing Results
-
-TBD
