@@ -14,7 +14,14 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 - Software: Python 3 (notebook: Arline_Project.ipynb)
 - Platform: Google Colab
 - Python Version: 3.13.16
-[INSERT TABLE HERE FOR PACKAGES USED; TO BE CONTINUED]
+
+| Package | Version | Used for |
+| -------- | ------ | --------| 
+| pandad |           |            |
+| matplotlib |       |            |
+| seaborn |          |            |
+| ARIMA |             |           | 
+| adfuller |          |           |
 
 # Documentation
 
