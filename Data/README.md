@@ -47,7 +47,7 @@ The dataset contains flight information, including flight numbers and tail numbe
 
 ## Explanatory Plots
 
-![Explanatory Plots](explanatory_plots.png)
+![Explanatory Plots](explanatory_plots.jpeg)
 
 ## Data Preparation and Analysis
 
