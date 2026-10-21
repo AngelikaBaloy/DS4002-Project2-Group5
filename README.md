@@ -25,19 +25,19 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 ## Documentation
 
 * Data
-  
-
-## Instruction for Reproducing Results
-
-* Data
     * Cleaned Data
         * IAD_2024_Combined.csv
-        *IAD_2025_Combined_cs
+        * IAD_2025_Combined_csV
     * IAD_2024_American.csv
     * IAD_2024_Delta.csv
     * IAD_2024_United.csv
-    *IAD_2025_American.csv
-    *IAD_2025_Delta.csv
-    *IAD_2025_United.csv
-    *README.md
+    * IAD_2025_American.csv
+    * IAD_2025_Delta.csv
+    * IAD_2025_United.csv
+    *  README.md
     *explanatory_plots.jpeg
+
+
+## Instruction for Reproducing Results
+
+TBC
