@@ -40,7 +40,8 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 * Output
      * To be continued....
 * Scripts
-     * Airline_Project_Analysis.ipynb
+     * 01_Airline_Project_EDA&Cleaning.ipynb
+     * 02_Airline_Project_Analysis.ipynb
 * LICENSE
 * README.md
 
