@@ -58,24 +58,24 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 3. Run the first code chunk to import the necessary packages. Create a merged dataset for 2024 by running the following chunk. This should create a file combining all 2024 flight data from all three airlines (United, American, and Delta).
 4. Save the combined 2024 dataset by running the next code chunk. This combined dataset is also accessible in the Data folder in this repo. Repeat this process for the 2025 data by running the next code chunk. The 2025 combined dataset is also stored with the combined 2024 dataset in this repo.
 5. Exploratory Data Analysis
-     a. Run the following code chunk and combine the combined 2024 and 2025 datasets. Convert Date column to the necessary format. Create variables: Delayed, Month, Quarter, and Day of Week. Set the colors and theme for the following plot.
-     b. Run the following code chunk to create a visualization of Monthly Delay Rates by Airline (2024 vs 2025). Notice the variation by carrier. Yearly trends, overall, are still quite similar. 
-     c. Run the next chunk to create a bar graph showing the Number of Flight Observations by Airline (2024 vs 2025). Notice that United flights are overrepresented in this dataset; there is not an even distribution of flights across carrier.
+   * Run the following code chunk and combine the combined 2024 and 2025 datasets. Convert Date column to the necessary format. Create variables: Delayed, Month, Quarter, and Day of Week. Set the colors and theme for the following plot.
+   * Run the following code chunk to create a visualization of Monthly Delay Rates by Airline (2024 vs 2025). Notice the variation by carrier. Yearly trends, overall, are still quite similar. 
+   * Run the next chunk to create a bar graph showing the Number of Flight Observations by Airline (2024 vs 2025). Notice that United flights are overrepresented in this dataset; there is not an even distribution of flights across carrier.
 6. Analysis
-     a. Access the second script in the scripts folder in this repository: 02_Airline_Project_Analysis_final.ipynb by opening the file in Google Colab or by downloading the file.
-     b. Import the necessary packages for analysis.
-     c. Run the next code chunk to read in the combined datasets created from the previous script.
-     d. Clean the data to remove cancelled flights by running the following code chunk.
-     e. Aggregate the data by running the next chunk. This prepares the data for modeling and organizes data into our desired variables: daily departure delay rates and daily average departure delay (in minutes).
-     f. Set up forecast dates by running the first line in the next code chunk. Each day in 2025 will be predicted by our models.
-     g. Check for stationarity by running the next chunk. The goal of this check is to calculate p-values below .05, indicating that the data is stationary.
-     h. Run the next chunk. This code sets up the curve the model will make predictions off of.
-     i. Address the non-stationarity by running the following code chunk. This should produce updated p-values that are statistically significant.
-     j. Run the following chunk to create a function to create ARIMA and SARIMA models. Read comments explaining each part of the function.
-     k. Run the following chunk to create a function to compare ARIMA, SARIMA, and 2024 Average MAE and RMSE.
-     l. Run the next chunk to create a function to plot the results of our models.
-     m. Create the first model and view its results by running the next chunk under Model 1. View the plot. Save the score and model output by running the following chunk.
-     n. Create the second model and view its results by running the next chunk under Model 2. View the plot. Save the score and model output by running the following chunk.
-     o. Reflect on the differences between the two main models, but also in the ARIMA/SARIMA. Note differences in error (MAE, RMSE).
-     p. The next two chunks provide another opportunity for ARIMA/SARIMA comparison. Though these are outside of our research question and main analysis, this helps us better understand how ARIMA and SARIMA predictions differ. Particularly, SARIMA is much better at capturing fluctuations across the year.
+   * Access the second script in the scripts folder in this repository: 02_Airline_Project_Analysis_final.ipynb by opening the file in Google Colab or by downloading the file.
+   * Import the necessary packages for analysis.
+   * Run the next code chunk to read in the combined datasets created from the previous script.
+   * Clean the data to remove cancelled flights by running the following code chunk.
+   * Aggregate the data by running the next chunk. This prepares the data for modeling and organizes data into our desired variables: daily departure delay rates and daily average departure delay (in minutes).
+   * Set up forecast dates by running the first line in the next code chunk. Each day in 2025 will be predicted by our models.
+   * Check for stationarity by running the next chunk. The goal of this check is to calculate p-values below .05, indicating that the data is stationary.
+   * Run the next chunk. This code sets up the curve the model will make predictions off of.
+   * Address the non-stationarity by running the following code chunk. This should produce updated p-values that are statistically significant.
+   * Run the following chunk to create a function to create ARIMA and SARIMA models. Read comments explaining each part of the function.
+   * Run the following chunk to create a function to compare ARIMA, SARIMA, and 2024 Average MAE and RMSE.
+   * Run the next chunk to create a function to plot the results of our models.
+   * Create the first model and view its results by running the next chunk under Model 1. View the plot. Save the score and model output by running the following chunk.
+   * Create the second model and view its results by running the next chunk under Model 2. View the plot. Save the score and model output by running the following chunk.
+   * Reflect on the differences between the two main models, but also in the ARIMA/SARIMA. Note differences in error (MAE, RMSE).
+   * The next two chunks provide another opportunity for ARIMA/SARIMA comparison. Though these are outside of our research question and main analysis, this helps us better understand how ARIMA and SARIMA predictions differ. Particularly, SARIMA is much better at capturing fluctuations across the year.
      q. All output from this script is accessible in the output folder in this repo. 
