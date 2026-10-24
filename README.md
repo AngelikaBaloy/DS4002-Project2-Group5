@@ -38,10 +38,16 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
     * README.md
     * explanatory_plots.jpeg
 * Output
-     * To be continued....
+     * avg_delay_accuracy.csv
+     * avg_delay_forecast.png
+     * avg_delay_monthly.png
+     * avg_delay_rate_results.csv
+     * delay_rate_accuracy.csv
+     * delay_rate_forecast.png
+     * delay_rate_results.csv
 * Scripts
      * 01_Airline_Project_EDA&Cleaning.ipynb
-     * 02_Airline_Project_Analysis.ipynb
+     * 02_Airline_Project_Analysis_final.ipynb
 * LICENSE
 * README.md
 
