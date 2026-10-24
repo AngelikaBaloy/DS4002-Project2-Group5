@@ -1,0 +1,4 @@
+Model,MAE,RMSE
+2024 Average,9.27,14.21
+ARIMA Prediction,9.27,14.21
+SARIMA Prediction,7.86,13.45
