@@ -78,4 +78,4 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
    * Create the second model and view its results by running the next chunk under Model 2. View the plot. Save the score and model output by running the following chunk.
    * Reflect on the differences between the two main models, but also in the ARIMA/SARIMA. Note differences in error (MAE, RMSE).
    * The next two chunks provide another opportunity for ARIMA/SARIMA comparison. Though these are outside of our research question and main analysis, this helps us better understand how ARIMA and SARIMA predictions differ. Particularly, SARIMA is much better at capturing fluctuations across the year.
-     q. All output from this script is accessible in the output folder in this repo. 
+   * All output from this script is accessible in the output folder in this repo. 
