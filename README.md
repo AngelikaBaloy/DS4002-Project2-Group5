@@ -55,6 +55,12 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
 * LICENSE
 * README.md
 
+## File locations
+
+* `Data/Raw Data/` contains the source airline CSV files.
+* `Data/Combined Data/` contains the combined datasets created by Script 01 and used as input by Script 02.
+* `Output/` contains the generated results from Script 02, including ADF test results, accuracy tables, forecast tables, and plots.
+
 ## Instruction for Reproducing Results
 
 1. Access the data files by going to the data folder in this repository. Read the README.md file to get acquainted with the data. Download all raw data files.
