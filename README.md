@@ -89,7 +89,7 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
        | --- | --- | --- |
        | 2024 Average | 7.91 | 10.84 |
        | ARIMA Prediction | 7.88 | 10.77 |
-       | SARIMA Prediction | 7.24 | 10.39 |
+       | SARIMA Prediction | 7.02 | 10.19 |
 
      * `delay_rate_results.csv` should have 365 data rows (one per day of 2025) and the columns Date, ARIMA Prediction, SARIMA Prediction, Lower 95%, Upper 95%.
    * Model 2 (daily average departure delay, minutes): run **code cell 14** (`# Model 2`) and then **code cell 15** (`# Save output`) to save `avg_delay_accuracy.csv` and `avg_delay_rate_results.csv`.
@@ -99,7 +99,7 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
        | --- | --- | --- |
        | 2024 Average | 9.27 | 14.21 |
        | ARIMA Prediction | 9.27 | 14.21 |
-       | SARIMA Prediction | 7.86 | 13.45 |
+       | SARIMA Prediction | 7.93 | 13.49 |
 
    * Reflect on the differences between the two main models, and between ARIMA and SARIMA. Note the differences in error (MAE, RMSE).
    * **Code cell 16** (`# Monthly view`) and **code cell 17** (`# Label rows by month name`) give another ARIMA/SARIMA comparison. These are outside our research question and main analysis, but they help show how ARIMA and SARIMA predictions differ. SARIMA is much better at capturing fluctuations across the year. Cell 17 saves `avg_delay_monthly.png`.
