@@ -110,4 +110,4 @@ https://www.transtats.bts.gov/ontime/Departures.aspx
    * Reflect on the differences between the two main models, and between ARIMA and SARIMA. Note the differences in error (MAE, RMSE).
    * **Code cell 16** (`# Monthly view`) and **code cell 17** (`# Label rows by month name`) give another ARIMA/SARIMA comparison. These are outside our research question and main analysis, but they help show how ARIMA and SARIMA predictions differ. SARIMA is much better at capturing fluctuations across the year. Cell 17 saves `avg_delay_monthly.png`.
    * Small numeric differences from the values above are possible with different package versions, and a `ConvergenceWarning` from the SARIMA fit is expected.
-   * All output from this script is accessible in the `Output/` folder in this repo.
+   * All output from this script is accessible in the `Output/` folder in this repository.
