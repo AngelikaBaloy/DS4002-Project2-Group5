@@ -5,6 +5,7 @@ EDA revealed that United airlines is overrepresented in this data, holding the v
 with more frequent delay rates in the summer and holiday months. 
 
 Before analyses were run, we checked the data for stationarity, and it was borderline non-stationary (p > .05). We differenced the data to accommodate this. 
+However, we created ARIMA and SARIMA models before differencing to compare with our final SARIMA model that was fit on the differenced data. 
 
 ## Model results:
 
@@ -19,6 +20,11 @@ in fall and winter and peak delays in July and August. RMSE improved less than M
 that SARIMA predicts typical days better but still misses the most extreme days, likely caused by outages or extreme weather, which are not predictable from
 past delays alone.
 
+Since our ADF test revealed that our data was borderline non-stationary (p-value was not significant), we finally created two SARIMA models forecasting daily delay rate (1) and 
+average daily delay in minutes (2). We expected both models fit on differenced data to perform even better than the models not fit on differenced data; however, interestingly, 
+only our first model showed an improvement in MAE and RMSE after differencing. Therefore, the SARIMA tasked with forecasting average daily 
+delay in minutes generally made less errors when not fit on differenced data. 
+
 Our original research question was focused on forecasting daily departure delay rates, or the daily proportion of flights that had delays exceeding 15 minutes. 
 Our goal MAE was 5, so we did not reach that goal. Supplementary analysis on daily average departure delay (in minutes) was even less accurate, with higher MAE. 
-SARIMA consistently performed better than plain ARIMA and had higher prediction accuracy. 
+SARIMA consistently performed better than plain ARIMA and had higher prediction accuracy. Our final SARIMA model achieved a MAE of 7.02, which improved after differencing. 
